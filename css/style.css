@@ -1,9 +1,14 @@
 html {
-	background-color: #002266;
+	background-color: white; //#002266;
+	padding: 0;
+}
+
+body {
+	margin: 0px;
 }
 
 div.page.holder {
-	background-color: #ffffe6; 
+	background-color: white; //#ffffe6; 
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 50px;
@@ -11,9 +16,22 @@ div.page.holder {
 }
 
 header {
-	background-color: #66c2ff;
+	background-color: white; //#66c2ff;
+	border-bottom: 1px solid black;
 	padding: 10px;
 	position: fixed;
 	top: 0;
 	width: 100%;
+	margin: 0px;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+	display: inline
 }
