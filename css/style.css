@@ -1,18 +1,22 @@
 html {
 	background-color: white; //#002266;
 	padding: 0;
+	font-family: courier new;
 }
 
 body {
 	margin: 0px;
+	text-align: center;
 }
 
 div.page.holder {
+	border-radius: 3px;
+	border: solid black 1px;
 	background-color: white; //#ffffe6; 
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 50px;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	//box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header {
@@ -34,4 +38,27 @@ ul {
 
 li {
 	display: inline
+}
+
+div.showcase {
+	text-indent: 5em;
+	padding: 0px 25px;
+	text-align: left;
+}
+
+footer {
+	padding: 10px;
+	border-top: black solid 1px:
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+h1.event.title {
+	text-indent: 0;
+	text-align: center;
+}
+
+hr.showcase.rule {
+	border-top: dashed 1px;
 }
