@@ -10,13 +10,13 @@ body {
 }
 
 div.page.holder {
-	border-radius: 3px;
+	border-radius: 15px;
 	border: solid black 1px;
 	background-color: white; //#ffffe6; 
 	margin-left: 50px;
 	margin-right: 50px;
 	margin-top: 50px;
-	//box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 header {
@@ -27,6 +27,7 @@ header {
 	top: 0;
 	width: 100%;
 	margin: 0px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 ul {
@@ -41,9 +42,9 @@ li {
 }
 
 div.showcase {
-	text-indent: 5em;
+	text-indent: 2em;
 	padding: 0px 25px;
-	text-align: left;
+	text-align: justify;
 }
 
 footer {
