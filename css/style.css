@@ -15,7 +15,6 @@ div.page.holder {
 	width: 800px;
 	border-radius: 15px;
 	border: solid black 1px;
-	background-color: white; //#ffffe6;
 	margin-top: 50px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -76,8 +75,8 @@ div.thumbnail {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.thumbnail-image {
-  height: 160px;
+.thumbnail img {
+  border-bottom: solid black 1px;
 }
 
 #projects {
