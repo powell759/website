@@ -10,11 +10,12 @@ body {
 }
 
 div.page.holder {
+	margin-left: auto;
+	margin-right: auto;
+	width: 800px;
 	border-radius: 15px;
 	border: solid black 1px;
-	background-color: white; //#ffffe6; 
-	margin-left: 50px;
-	margin-right: 50px;
+	background-color: white; //#ffffe6;
 	margin-top: 50px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
@@ -22,11 +23,11 @@ div.page.holder {
 header {
 	background-color: white; //#66c2ff;
 	border-bottom: 1px solid black;
-	padding: 10px;
 	position: fixed;
 	top: 0;
 	width: 100%;
-	margin: 0px;
+	margin: 0;
+	padding: 10px;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
@@ -56,6 +57,7 @@ footer {
 }
 
 h1.event.title {
+	margin-bottom: 0;
 	text-indent: 0;
 	text-align: center;
 }
@@ -63,3 +65,48 @@ h1.event.title {
 hr.showcase.rule {
 	border-top: dashed 1px;
 }
+
+div.thumbnail {
+  border: solid black 1px;
+  height: 240px;
+  width: 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.thumbnail-image {
+  height: 160px;
+}
+
+#projects {
+	text-align: center;
+}
+
+#profile-table {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.nav-link {
+	color: black;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+.nav-link:visited {
+	color: black;
+}
+
+.nav-link:hover {
+	color: red;
+}
+
+.logo {
+	position: fixed;
+	left: 20px;
+	top: 0;
+	margin: 0;
+	padding:10px;
+	font-weight: bold;
+}
+
+
