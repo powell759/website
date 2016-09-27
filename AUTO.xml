@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FileZilla3 version="3.15.0.2" platform="*nix">
+	<Queue>
+		<Server>
+			<Host>maxwellpowell.com</Host>
+			<Port>21</Port>
+			<Protocol>0</Protocol>
+			<Type>0</Type>
+			<User>maxrpowell</User>
+			<Pass encoding="base64">TXJwQDQ1ODg1</Pass>
+			<Logontype>1</Logontype>
+			<TimezoneOffset>0</TimezoneOffset>
+			<PasvMode>MODE_DEFAULT</PasvMode>
+			<MaximumMultipleConnections>0</MaximumMultipleConnections>
+			<EncodingType>Auto</EncodingType>
+			<BypassProxy>0</BypassProxy>
+			<Name>maxwellpowell.com</Name>
+			<File>
+				<LocalFile>/home/maxrpowell/website/css/style.css</LocalFile>
+				<RemoteFile>style.css</RemoteFile>
+				<RemotePath>1 0 11 public_html 3 css</RemotePath>
+				<Download>0</Download>
+				<Size>1659</Size>
+				<DataType>0</DataType>
+			</File>
+			<File>
+				<LocalFile>/home/maxrpowell/website/img/thumbthumb.png</LocalFile>
+				<RemoteFile>thumbthumb.png</RemoteFile>
+				<RemotePath>1 0 11 public_html 3 img</RemotePath>
+				<Download>0</Download>
+				<Size>14593</Size>
+				<DataType>1</DataType>
+			</File>
+			<File>
+				<LocalFile>/home/maxrpowell/website/img/ohio-state.png</LocalFile>
+				<RemoteFile>ohio-state.png</RemoteFile>
+				<RemotePath>1 0 11 public_html 3 img</RemotePath>
+				<Download>0</Download>
+				<Size>10480</Size>
+				<DataType>1</DataType>
+			</File>
+			<File>
+				<LocalFile>/home/maxrpowell/website/index.html</LocalFile>
+				<RemoteFile>index.html</RemoteFile>
+				<RemotePath>1 0 11 public_html</RemotePath>
+				<Download>0</Download>
+				<Size>3503</Size>
+				<DataType>0</DataType>
+			</File>
+		</Server>
+	</Queue>
+</FileZilla3>
