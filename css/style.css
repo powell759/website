@@ -9,7 +9,7 @@ body {
 	text-align: center;
 }
 
-div.page.holder {
+div.page-holder {
 	margin-left: auto;
 	margin-right: auto;
 	width: 800px;
@@ -109,6 +109,14 @@ div.thumbnail {
 	margin: 0;
 	padding:10px;
 	font-weight: bold;
+}
+
+.doc-link {
+	color:black;
+}
+
+.doc-link:visited {
+	color:black;
 }
 
 
