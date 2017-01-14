@@ -93,7 +93,6 @@ button_arr.push(button_rad_deg);
 
 initialize_calu();  //initialize the calculator
 
-f
 function switch_num() { //turn the current into a float and store it in num_1
   num_1 = parseFloat(current);
   //console.log("num_1 just parsed! Parsed number: " + num_1);    //for testing
