@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+}
+
+.container {
+  
+  margin: auto;
+  
+  background: #DDDDDD;
+  
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px;
+  box-shadow: 0 0 2px rgba(0, 0, 0, .5);
+  
+  text-align: center;
+}
+
+input {
+  text-align: right;
+}
+
+#result {
+  float: right;
+}
+
+#calc_btn {
+  float: left;
+}
