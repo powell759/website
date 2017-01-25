@@ -41,6 +41,8 @@ li {
 }
 
 div.showcase {
+    clear: both;
+    overflow: hidden;
 	text-indent: 2em;
 	padding: 0px 25px;
 	text-align: justify;
@@ -61,6 +63,7 @@ h1.event.title {
 }
 
 hr.showcase.rule {
+    clear: both;
 	border-top: dashed 1px;
 }
 
