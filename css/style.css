@@ -76,6 +76,8 @@ div.thumbnail {
 
 .thumbnail img {
   border-bottom: solid black 1px;
+  height: 140px;
+  width: 200px;
 }
 
 #projects {
