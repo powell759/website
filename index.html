@@ -7,21 +7,20 @@
 </head>
 <body>
 <header>
- <p class="logo">MAXWELL POWELL</d>
- <ul>
- <li><a href="#about"  class="nav-link"> ABOUT</a></li> |
- <li><a href="#profiles"  class="nav-link"> PROFILES</a></li> |
- <li><a href="#projects"  class="nav-link"> PROJECTS</a></li> |
- <li><a href="#coursework"  class="nav-link"> COURSEWORK</a></li> |
- <li><a href="#resume"  class="nav-link"> RESUME</a></li>
+ <p class="logo">MAXWELL POWELL</p>
+ <ul class="titlebar">
+ <li class="titlebar"><a href="#top"  class="nav-link"> ABOUT</a></li> |
+ <li class="titlebar"><a href="#projects"  class="nav-link"> PROJECTS</a></li> |
+ <li class="titlebar"><a href="#coursework"  class="nav-link"> COURSEWORK</a></li> |
+ <li class="titlebar"><a href="#profiles"  class="nav-link"> PROFILES && RESUME</a></li>
 </ul>    
 </header>
 <div class="page-holder">
 
- <div class="showcase" id="about">
-  <h1 class="event title">ABOUT ME</h1>
+ <div class="showcase">
+  <h1 class="event title">ABOUT ME:</h1>
   <hr style="height: 3px; width: 180px; margin-top: 0;">
-  <img class="article-img" src="img/profile-picture.jpg"></img>
+  <img class="article-img" src="img/profile-picture.jpg">
   <p class="img-text">
    My name is Maxwell Powell, I am a junior at The Ohio
    State University. I am graduating in May 2018 with a 
@@ -34,10 +33,10 @@
   </p>
  </div>
  
- <hr class="showcase rule"></hr>
+ <hr class="showcase rule">
  
  <div id="projects" class="showcase">
-  <h1 class="event title">PROJECTS</h1>
+  <h1 class="event title">PROJECTS:</h1>
   <hr style="height: 3px; width: 180px; margin-top: 0;">
 
    <table id="profile-table">
@@ -53,76 +52,90 @@
        <a href="fehrobot.html"><img src="img/fehrobot.jpg"></a>
         <p style="text-align: center">FEH Robot Competition.</p>
        </div>
-      </div>
      </td>
      <td>
       <div class="thumbnail">
       <a href="https://github.com/powell759/website" target="_blank"><img src="img/thumbthumb.png"></a>
       <p style="text-align: center">My website.</p>
        </div>
-      </div>
      </td>
     </tr>
     <tr>
-      <td></td>
       <td>
       <div class="thumbnail">
       <a href="#"><img src="img/pi.jpg"></a>
        <p style="text-align: center">Raspberry Pi Web Server.</p>
+          </div>
      </td>
-      </div>
-      <td></td>
+     <td>
+      <div class="thumbnail">
+      <a href="chess.html"><img src="img/chess_thumb.png"></a>
+       <p style="text-align: center">Java Chess Game.</p>
+     </div>
+     </td>
     </tr>
    </table>
 
  </div>
  
- <hr class="showcase rule"></hr>
- 
- <div style="text-indent: 0; text-align: center"class="showcase" id="profiles">
-  <h1 class="event title">PROFILES</h1>
-  <hr style="height: 3px; width: 180px; margin-top: 0;">
-  <p>
-   <a class="doc-link" href="https://github.com/powell759" target="_blank"><i class="fa fa-github-square fa-4x"></i></a>
-   <a class="doc-link" href="https://www.linkedin.com/in/maxwell-powell-1a0642110" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a>
-   <a class="doc-link" href="http://codepen.io/maxrpowell/#" target="_blank"><i class="fa fa-codepen fa-4x"></i></a>
-   <a class="doc-link" href="#"><i class="fa fa-jsfiddle fa-4x" target="_blank"></i></a>
-  </p>
- </div>
- 
- <hr class="showcase rule"></hr>
+ <hr class="showcase rule">
  
  <div class="showcase" id="coursework">
-  <h1 class="event title">COURSEWORK</h1>
+     <h1 class="event title">COURSEWORK:</h1>
   <hr style="height: 3px; width: 180px; margin-top: 0;">
   <p style="text-align: center; text-indent: 0;">
-   Listing Classes - In Progress
   </p>
+     <ul>
+     <li><strong>Software Components:</strong><p>"Intellectual foundations of software engineering; design-by-contract principles; mathematical modeling of software functionality; component-based software from client perspective." <a href="http://web.cse.ohio-state.edu/software/2221/web-sw1/syllabus.html">syllabus</a></p></li>
+         <li><strong>Software Development and Design:</strong><p>"Data representation using hashing, search trees, and linked data structures; algorithms for sorting; using trees for language processing; component interface design; best practices in Java." <a href="http://web.cse.ohio-state.edu/software/2231/web-sw2/syllabus.html">syllabus</a></p></li>
+         <li><strong>Discrete Structures:</strong><p>"Propositional and first-order logic; basic proof techniques; graphs, trees; analysis of algorithms; asymptotic
+analysis; recurrence relations." <a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2321.pdf">syllabus</a></p></li>
+         <li><strong>Data Structures and Algorithms:</strong><p>"Design/analysis of algorithms and data structures; divide-and-conquer; sorting and selection, search trees,
+hashing, graph algorithms, string matching; probabilistic analysis; randomized algorithms; NP-completeness." <a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2331.pdf">syllabus</a></p></li>
+         <li><strong>Low-Level Programming and Compter Organization:</strong><p>"Introduction to computer architecture at machine and assembly language level; pointers and addressing; C
+programming at machine level; computer organization." <a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2421.pdf">syllabus</a></p></li>
+         <li><strong>Operating Systems Organization:</strong><p>"Introduction to operating system concepts: process, CPU scheduling, memory management, file system and
+storage, and multi-threaded programming." <a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-2431.pdf">syllabus</a></p></li>
+         <li><strong>Digital Logic:</strong><p>"Introduction to the theory and practice of combinational and clocked sequential networks. "<a href="https://ece.osu.edu/sites/ece.osu.edu/files/uploads/syllabus_2060.pdf">syllabus</a></p></li>
+         <li><strong>Design, Development, and Documentation of Web Applications:</strong><p>"Intensive group project involving design, development, and documentation of a web application; client-side
+and server-side scripting; communication skills emphasized; builds programming maturity." <a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-3901.pdf">syllabus</a></p></li>
+         <li><strong>Survey Artificial Intellegence - Basic Techniques:</strong><p>"Survey of basic concepts and techniques in artificial intelligence, including problem solving, knowledge
+representation, and machine learning." <a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-3521.pdf">syllabus</a></p></li>
+         <li><strong>Software Engineering Techniques:</strong><p>"Software engineering issues, techniques, methodologies and technologies; software lifecycle activities:
+requirements analysis, architecture, design, testing, deployment, maintenance; project management; enterprise
+software systems; frameworks." </p><a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-3231.pdf">syllabus</a></li>
+         <li><strong>Introduction to Computer Architecture:</strong><p>"Organization of hardware and software in modern computer systems, including instruction set design,
+processor control, ALU design, pipelining, multicores and accelerators, and memory subsystem design." <a href="http://coe-portal.cse.ohio-state.edu/pdf-exports/CSE/CSE-3421.pdf">syllabus</a></p></li>
+         <li><strong>Statistics for Engineers:</strong><p>"The course covers an introduction to probability, discrete and continuous random
+variables, probability distributions, expected values, sampling distributions, point estimation, confidence
+intervals, hypothesis testing and simple linear regression models." <a href="http://www.stat.osu.edu/sites/default/files/syllabi/sp14/3470-bach.pdf">syllabus</a></p></li>
+         <li><strong>Intermediate Data Analysis:</strong><p>"This is the first course in a two-semester non-calculus sequence in data analysis covering descriptive statistics,
+design of experiments, probability, statistical inference (one- and two-sample problem, goodness of fit,
+and one-way ANOVA)." <a href="http://www.stat.osu.edu/~calder/stat5301-au12/syllabus.pdf">syllabus</a></p></li>
+     </ul>
  </div>
  
- <hr class="showcase rule"></hr>
- 
- <div class="showcase" id="resume">
-  <h1 class="event title">RESUME</h1>
-  <hr style="height: 3px; width: 180px; margin-top: 0;">
-  <p  style="text-align: center; text-indent: 0;">
-   <a href="/docs/resume.pdf" class="doc-link"><i class="fa fa-file-pdf-o fa-4x"></i></a>
-      <a href="/docs/MaxwellPowell021817update.docx" class="doc-link"><i class="fa fa-file-word-o fa-4x"></i></a>
-  </p>
- </div>
- 
- <hr class="showcase rule"></hr>
+ <hr class="showcase rule" id="profiles">
  
   <div class="showcase" id="contact">
-  <h1 class="event title">CONTACT</h1>
+  <h1 class="event title">PROFILES && RESUME:</h1>
   <hr style="height: 3px; width: 180px; margin-top: 0;">
+  <p  style="text-align: center; text-indent: 0;">
+     <a class="doc-link" href="https://github.com/powell759" target="_blank"><i class="fa fa-github-square fa-4x"></i></a>
+     <a class="doc-link" href="https://www.linkedin.com/in/maxwell-powell-1a0642110" target="_blank"><i class="fa fa-linkedin-square fa-4x"></i></a>
+     <a href="/docs/resume.pdf" class="doc-link"><i class="fa fa-file-pdf-o fa-4x"></i></a>
+    <a href="/docs/MaxwellPowell021817update.docx" class="doc-link"><i class="fa fa-file-word-o fa-4x"></i></a>
+  </p>
   <p style="text-align: center;">
+      
+      
    Up-To-Date contact information can be found in my resume.
   </p>
  </div>
+    
 </div>
 
-<footer>Copyright &#9400 2016 Maxwell Powell</footer>
+<footer>Copyright &#9400 2016, 2017 Maxwell Powell</footer>
 </body>
 </html>
 
