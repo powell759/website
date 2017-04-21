@@ -10,6 +10,7 @@
     <link href="/stylesheets/normalize.css" rel="stylesheet" />
     <link href="/stylesheets/skeleton.css" rel="stylesheet" />
     <link href="/stylesheets/site.css" rel="stylesheet" />
+    <script src="/javascripts/jquery-3.2.1.slim.min.js"></script>
     <script src="/javascripts/site.js"></script>
   </head>
   <body>
@@ -17,10 +18,24 @@
   <div class="row">
     <div class="header">
       <h4>Maxwell Powell</h4>
-      <p>[ bio ] [ projects ] [ git ]</p>
+      <p>
+        [ <a href="#" id="bio-toggle"> bio</a> ]
+        [ <a href="#" id="proj-toggle"> projects</a> ]
+        [ <a href="#" id="prof-toggle"> profiles</a> ]
+      </p>
+    </div>
+    <div class="content" id="bio-content">
+      <p>Information about me</p>
+    </div>
+    <div class="content" id="proj-content">
+      <p>Infortmation about projects</p>
+    </div>
+    <div class="content" id="prof-content">
+      <p>Infortmation about profiles</p>
     </div>
   </div>
 </div>
+<footer>powered by middleman and skeleton</footer>
 
   </body>
 </html>
