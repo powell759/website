@@ -1,0 +1,17 @@
+[
+  {
+    "name": "Calculator",
+    "description": "This is a javascript calculator I built with several classmates for a web applications class. I styled the calculator and the backend was a collaboration between the group.",
+    "link": "/calc/calc.html"
+  },
+  {
+    "name": "Webiste",
+    "description": "My website is currently in its second iteration. From time to time I recreate to try out different tools, but the contente is usually the same. I host the source on github.",
+    "link": "https://github.com/powell759/website"
+  },
+  {
+    "name": "Raspbery Pi Webserver",
+    "description": "I host this website from my lising ",
+    "link": "#"
+  }
+]

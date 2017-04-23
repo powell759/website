@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+<!--script src="calc.js"></script-->
+</head>
+<body>
+  <div id="calc">
+  <table class="face">
+    <tr id="display-row">
+      <td colspan="2"><span id="display" class="screen">0</span></td>
+    </tr>
+    <tr>
+      <td class="label">MEMORY:<span id="memory" class="screen">0</span></td>
+      <td class="label">OPERATION:<span id="answer" class="screen">0</span></td>
+    </tr>
+    <td>
+      <table class="numpad">
+        <tr>
+          <td><span id="MS" class="mem">MS</span></td>
+          <td><span id="MR" class="mem">MR</span></td>
+          <td><span id="MC" class="mem">MC</span></td>
+        </tr>
+        <tr>
+          <td><span id="one" class="num">1</span></td>
+          <td><span id="two" class="num">2</span></td>
+          <td><span id="three" class="num">3</span></td>
+        </tr>
+        <tr>
+          <td><span id="four" class="num">4</span></td>
+          <td><span id="five" class="num">5</span></td>
+          <td><span id="six" class="num">6</span></td>
+        </tr>
+        <tr>
+          <td><span id="seven" class="num">7</span></td>
+          <td><span id="eight" class="num">8</span></td>
+          <td><span id="nine" class="num">9</span></td>
+        </tr>
+        <tr>
+          <td><span id="dot" class="num">.</span></td>
+          <td><span id="zero" class="num">0</span></td>
+          <td><span id="sign" class="num">+/-</span></td>
+        </tr>
+      </table>
+    </td>
+    <td>
+      <table class="numpad">
+        <tr>
+          <td><span id="M+" class="mem">M+</span></td>
+          <td><span id="M-" class="mem">M-</span></td>
+          <td><span id="C" class="mem">C</span></td>
+        </tr>
+        <tr>
+          <td><span id="plus" class="op">+</span></td>
+          <td><span id="multiply" class="op">&times;</span></td>
+          <td><span id="exponent" class="op">^</span></td>
+        </tr>
+	<tr>
+          <td><span id="minus" class="op">-</span></td>
+          <td><span id="divide" class="op">&divide;</span></td>
+	  <td><span id="rad-deg" class="op">rad|deg</span></td>
+        </tr>
+	<tr>
+	  <td><span id="sin" class="op">sin</span></td>
+	  <td><span id="cos" class="op">cos</span></td>
+	  <td><span id="tan" class="op">tan</span></td>
+	</tr>
+        <tr>
+          <td><span id="sqroot" class="op">sqrt</span></td>
+          <td><span id="mod" class="op">%</span></td>
+	  <td><span id="equal" class="op">=</span></td>
+        </tr>
+      </table>
+    </td>
+  </table>
+  </div>
+  <script src="ops.js"></script>
+</body>
+</html>

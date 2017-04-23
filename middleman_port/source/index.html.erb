@@ -12,14 +12,18 @@ title: Maxwell Powell
       </p>
     </div>
     <div class="content" id="bio-content">
-      <p>Information about me</p>
+      <p>I'm Maxwell. I'm a junior at Ohio State University studying Computer Science and Engineering with a focus in Software Engineering</p>
     </div>
     <div class="content" id="proj-content">
-      <p>Infortmation about projects</p>
+      <h5>Projects:</h5>
+      <% data.projects.each do |p| %>
+      <p><%= link_to p.name, p.link %></p>
+      <p><%= p.description %></p>
+      <br>
+      <% end %>
     </div>
     <div class="content" id="prof-content">
       <p>Infortmation about profiles</p>
     </div>
   </div>
 </div>
-<footer>powered by middleman and skeleton</footer>
