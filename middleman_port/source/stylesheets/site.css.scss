@@ -2,6 +2,10 @@ $primary-background: white;
 $primary-foreground: #f9f9f9;
 $primary-font: #353535;
 
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: "Courier New", monospace;
   color: $primary-font;
@@ -18,6 +22,7 @@ footer {
 
 .header {
   text-align: center;
+  white-space: nowrap;
 }
 
 .container {
@@ -28,4 +33,14 @@ footer {
 
 .content {
     text-align: justify;
+}
+
+.project-img {
+  float: left;
+  margin-right: 3em;
+  margin-bottom: 3em;
+}
+
+.project-div {
+  clear: both
 }

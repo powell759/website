@@ -5,9 +5,10 @@ $(document).ready(function(){
   $("#bio-content").hide();
   $("#proj-content").hide();
   $("#prof-content").hide();
-  
+
   //Show bio-content
   $("#bio-toggle").click(function(){
+    $("#landing-content").hide();
     $("#bio-content").show();
     $("#proj-content").hide();
     $("#prof-content").hide();
@@ -15,6 +16,7 @@ $(document).ready(function(){
 
 //Show proj-content
   $("#proj-toggle").click(function(){
+    $("#landing-content").hide();
     $("#proj-content").show();
     $("#bio-content").hide();
     $("#prof-content").hide();
@@ -22,6 +24,7 @@ $(document).ready(function(){
 
 //Show prof-content
   $("#prof-toggle").click(function(){
+    $("#landing-content").hide();
     $("#prof-content").show();
     $("#proj-content").hide();
     $("#bio-content").hide();

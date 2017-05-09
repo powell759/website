@@ -5,21 +5,33 @@ title: Maxwell Powell
   <div class="row">
     <div class="header">
       <h4>Maxwell Powell</h4>
-      <p>
-        [ <a href="#" id="bio-toggle"> bio</a> ]
-        [ <a href="#" id="proj-toggle"> projects</a> ]
-        [ <a href="#" id="prof-toggle"> profiles</a> ]
-      </p>
+      <span>
+        <h5> [
+          <a href="#" id="bio-toggle">"bio"</a>,
+          <a href="#" id="proj-toggle">"projects"</a>,
+          <a href="#" id="prof-toggle">"profiles"</a>
+          ]
+        <h5>
+      </span>
+    </div>
+    <div class="content" id="landing-content">
+      Hi. I don't have too much free time right now, so depending on when you're seeing this I may or may not have much content here :)
     </div>
     <div class="content" id="bio-content">
-      <p>I'm Maxwell. I'm a junior at Ohio State University studying Computer Science and Engineering with a focus in Software Engineering</p>
+      <p>I'm Maxwell. I'm a <s>junior</s> senior at Ohio State University studying Computer Science and Engineering with a focus in Software Engineering</p>
+      <p></p>
+      <p>I like people who use their turn signals.</p>
     </div>
     <div class="content" id="proj-content">
       <h5>Projects:</h5>
       <% data.projects.each do |p| %>
-      <p><%= link_to p.name, p.link %></p>
-      <p><%= p.description %></p>
-      <br>
+      <div class="project-div">
+        <p><%= link_to p.name, p.link %></p>
+        <p>
+          <%= image_tag p.image, :class => "project-img" %>
+          <%= p.description %>
+        </p>
+      </div>
       <% end %>
     </div>
     <div class="content" id="prof-content">
